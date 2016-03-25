@@ -1,0 +1,32 @@
+{
+  "name": "scratchpad",
+  "version": "1.0.0",
+  "description": "Build using React.js",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel js -d built",
+    "start":"open http://localhost:3000 & httpster -p 3000"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayaragavendiran/Scratchpad.git"
+  },
+  "author": "Vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijayaragavendiran/Scratchpad/issues"
+  },
+  "homepage": "https://github.com/vijayaragavendiran/Scratchpad#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
